@@ -1,0 +1,183 @@
+﻿@model List<InforceAlbumTestTask.Models.Album>
+@{
+    ViewBag.Title = "My Albums";
+
+    InforceAlbumTestTask.Models.User user = ViewBag.User;
+
+    int currentPage = ViewBag.CurrentPage;
+    int totalPages = ViewBag.TotalPages;
+}
+
+<title>My Albums</title>
+
+<style>
+    /* Заголовок сторінки */
+    h2 {
+        text-align: center;
+        margin-bottom: 30px;
+        font-weight: bold;
+        color: #333;
+    }
+
+    /* Таблиця */
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-bottom: 40px;
+        background-color: #fff;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    }
+
+    .table th, .table td {
+        text-align: center;
+        vertical-align: middle;
+        padding: 15px;
+    }
+
+    .table th {
+        background-color: #f8f9fa;
+        color: #212529;
+        font-weight: 600;
+    }
+
+    .table img {
+        border-radius: 8px;
+        transition: transform 0.3s ease;
+    }
+
+        .table img:hover {
+            transform: scale(1.1);
+        }
+
+    /* Кнопка Delete */
+    .btn-danger {
+        background-color: #dc3545;
+        border-color: #dc3545;
+        color: #fff;
+        padding: 6px 12px;
+        border-radius: 6px;
+        text-decoration: none;
+        transition: background-color 0.3s ease;
+    }
+
+        .btn-danger:hover {
+            background-color: #c82333;
+            border-color: #bd2130;
+            color: #fff;
+        }
+
+    /* Пагінація */
+    .pagination {
+        display: flex;
+        justify-content: center;
+        padding-left: 0;
+        list-style: none;
+        border-radius: 0.25rem;
+    }
+
+    .page-item {
+        margin: 0 3px;
+    }
+
+        .page-item .page-link {
+            position: relative;
+            display: block;
+            padding: 8px 14px;
+            margin-left: -1px;
+            line-height: 1.25;
+            color: #007bff;
+            background-color: #fff;
+            border: 1px solid #dee2e6;
+            border-radius: 4px;
+            transition: all 0.2s ease-in-out;
+        }
+
+            .page-item .page-link:hover {
+                color: #0056b3;
+                background-color: #e9ecef;
+                text-decoration: none;
+            }
+
+        .page-item.active .page-link {
+            z-index: 1;
+            color: #fff;
+            background-color: #007bff;
+            border-color: #007bff;
+        }
+
+</style>
+
+<h2>My Albums Table</h2>
+
+
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>Cover</th>
+            <th>Title</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var album in Model)
+        {
+            <tr>
+                <td>
+                    <img src="@album.Images?.FirstOrDefault()?.ImageUrl" alt="Cover" style="width:100px;" />
+                </td>
+                @{
+                    var routeValues = new RouteValueDictionary();
+                    routeValues.Add("album.Id", album.Id);
+                    routeValues.Add("album.Title", album.Title);
+                    routeValues.Add("album.UserId", album.UserId);
+                    routeValues.Add("user.Id", user!.Id);
+                    routeValues.Add("user.Login", user!.Login);
+                    routeValues.Add("user.PasswordHash", user!.PasswordHash);
+                    routeValues.Add("user.userType", user!.UserType);
+                }
+                <td>
+                    <a href="@Url.Action("AlbumView", "Albums", routeValues)">
+                        @album.Title
+                    </a>
+                </td>
+                @{
+                    var routeValuesDelete = new RouteValueDictionary();
+                    routeValuesDelete.Add("albumId", album.Id);
+                    routeValuesDelete.Add("user.Id", user!.Id);
+                    routeValuesDelete.Add("user.Login", user!.Login);
+                    routeValuesDelete.Add("user.PasswordHash", user!.PasswordHash);
+                    routeValuesDelete.Add("user.userType", user!.UserType);
+                    routeValuesDelete.Add("currentPage", currentPage);
+                }
+                <td>
+                    <a href="@Url.Action("DeleteAlbum", "Albums", routeValuesDelete)"
+                       class="btn btn-danger"
+                       onclick="return confirm('Are you sure you want to delete this album?');">
+                        Delete
+                    </a>
+                </td>
+
+            </tr>
+        }
+    </tbody>
+</table>
+
+<!-- Pagination controls -->
+<nav aria-label="Page navigation">
+    <ul class="pagination">
+        @for (int i = 1; i <= totalPages; i++)
+        {
+            <li class="page-item @(i == currentPage ? "active" : "")">
+                @{
+                    var routeValues = new RouteValueDictionary();
+                    routeValues.Add("Id", user!.Id);
+                    routeValues.Add("Login", user!.Login);
+                    routeValues.Add("Password", user!.PasswordHash);
+                    routeValues.Add("UserType", user!.UserType);
+                    routeValues.Add("page", i);
+                }
+                <a class="page-link" href="@Url.Action("MyAlbums", "Albums", routeValues)">@i</a>
+            </li>
+        }
+    </ul>
+</nav>

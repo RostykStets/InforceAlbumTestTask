@@ -1,0 +1,35 @@
+D:\Work\Testing tasks\Inforce\BusinessLogicLayer\bin\Debug\net9.0\BusinessLogicLayer.deps.json
+D:\Work\Testing tasks\Inforce\BusinessLogicLayer\bin\Debug\net9.0\BusinessLogicLayer.runtimeconfig.json
+D:\Work\Testing tasks\Inforce\BusinessLogicLayer\bin\Debug\net9.0\BusinessLogicLayer.dll
+D:\Work\Testing tasks\Inforce\BusinessLogicLayer\bin\Debug\net9.0\BusinessLogicLayer.pdb
+D:\Work\Testing tasks\Inforce\BusinessLogicLayer\bin\Debug\net9.0\DataAccessLayer.dll
+D:\Work\Testing tasks\Inforce\BusinessLogicLayer\bin\Debug\net9.0\DataAccessLayer.pdb
+D:\Work\Testing tasks\Inforce\BusinessLogicLayer\obj\Debug\net9.0\BusinessLogicLayer.csproj.AssemblyReference.cache
+D:\Work\Testing tasks\Inforce\BusinessLogicLayer\obj\Debug\net9.0\BusinessLogicLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Work\Testing tasks\Inforce\BusinessLogicLayer\obj\Debug\net9.0\BusinessLogicLayer.AssemblyInfoInputs.cache
+D:\Work\Testing tasks\Inforce\BusinessLogicLayer\obj\Debug\net9.0\BusinessLogicLayer.AssemblyInfo.cs
+D:\Work\Testing tasks\Inforce\BusinessLogicLayer\obj\Debug\net9.0\BusinessLogicLayer.csproj.CoreCompileInputs.cache
+D:\Work\Testing tasks\Inforce\BusinessLogicLayer\obj\Debug\net9.0\Business.450209FB.Up2Date
+D:\Work\Testing tasks\Inforce\BusinessLogicLayer\obj\Debug\net9.0\BusinessLogicLayer.dll
+D:\Work\Testing tasks\Inforce\BusinessLogicLayer\obj\Debug\net9.0\refint\BusinessLogicLayer.dll
+D:\Work\Testing tasks\Inforce\BusinessLogicLayer\obj\Debug\net9.0\BusinessLogicLayer.pdb
+D:\Work\Testing tasks\Inforce\BusinessLogicLayer\obj\Debug\net9.0\BusinessLogicLayer.genruntimeconfig.cache
+D:\Work\Testing tasks\Inforce\BusinessLogicLayer\obj\Debug\net9.0\ref\BusinessLogicLayer.dll
+C:\Users\38096\source\repos\RostykStets\InforceAlbumTestTask\BusinessLogicLayer\bin\Debug\net9.0\BusinessLogicLayer.deps.json
+C:\Users\38096\source\repos\RostykStets\InforceAlbumTestTask\BusinessLogicLayer\bin\Debug\net9.0\BusinessLogicLayer.runtimeconfig.json
+C:\Users\38096\source\repos\RostykStets\InforceAlbumTestTask\BusinessLogicLayer\bin\Debug\net9.0\BusinessLogicLayer.dll
+C:\Users\38096\source\repos\RostykStets\InforceAlbumTestTask\BusinessLogicLayer\bin\Debug\net9.0\BusinessLogicLayer.pdb
+C:\Users\38096\source\repos\RostykStets\InforceAlbumTestTask\BusinessLogicLayer\bin\Debug\net9.0\DataAccessLayer.dll
+C:\Users\38096\source\repos\RostykStets\InforceAlbumTestTask\BusinessLogicLayer\bin\Debug\net9.0\DataAccessLayer.pdb
+C:\Users\38096\source\repos\RostykStets\InforceAlbumTestTask\BusinessLogicLayer\obj\Debug\net9.0\BusinessLogicLayer.csproj.AssemblyReference.cache
+C:\Users\38096\source\repos\RostykStets\InforceAlbumTestTask\BusinessLogicLayer\obj\Debug\net9.0\BusinessLogicLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\38096\source\repos\RostykStets\InforceAlbumTestTask\BusinessLogicLayer\obj\Debug\net9.0\BusinessLogicLayer.AssemblyInfoInputs.cache
+C:\Users\38096\source\repos\RostykStets\InforceAlbumTestTask\BusinessLogicLayer\obj\Debug\net9.0\BusinessLogicLayer.AssemblyInfo.cs
+C:\Users\38096\source\repos\RostykStets\InforceAlbumTestTask\BusinessLogicLayer\obj\Debug\net9.0\BusinessLogicLayer.csproj.CoreCompileInputs.cache
+C:\Users\38096\source\repos\RostykStets\InforceAlbumTestTask\BusinessLogicLayer\obj\Debug\net9.0\BusinessLogicLayer.sourcelink.json
+C:\Users\38096\source\repos\RostykStets\InforceAlbumTestTask\BusinessLogicLayer\obj\Debug\net9.0\Business.450209FB.Up2Date
+C:\Users\38096\source\repos\RostykStets\InforceAlbumTestTask\BusinessLogicLayer\obj\Debug\net9.0\BusinessLogicLayer.dll
+C:\Users\38096\source\repos\RostykStets\InforceAlbumTestTask\BusinessLogicLayer\obj\Debug\net9.0\refint\BusinessLogicLayer.dll
+C:\Users\38096\source\repos\RostykStets\InforceAlbumTestTask\BusinessLogicLayer\obj\Debug\net9.0\BusinessLogicLayer.pdb
+C:\Users\38096\source\repos\RostykStets\InforceAlbumTestTask\BusinessLogicLayer\obj\Debug\net9.0\BusinessLogicLayer.genruntimeconfig.cache
+C:\Users\38096\source\repos\RostykStets\InforceAlbumTestTask\BusinessLogicLayer\obj\Debug\net9.0\ref\BusinessLogicLayer.dll

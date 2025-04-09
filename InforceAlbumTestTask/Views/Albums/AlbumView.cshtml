@@ -1,0 +1,22 @@
+﻿@model Tuple<InforceAlbumTestTask.Models.Album, InforceAlbumTestTask.Models.User>
+@{
+    var errorMessage = ViewBag.ErrorMessage as string;
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+<body>
+    @if (Model.Item2 == null || Model.Item2.IsDefault())
+    {
+        @await Html.PartialAsync("~/Views/Albums/Topbar.cshtml")
+        ;
+    }
+    else
+    {
+        @await Html.PartialAsync("~/Views/Albums/TopbarAuthorized.cshtml", Model.Item2)
+        ;
+    }
+
+    @await Html.PartialAsync("~/Views/Albums/AlbumViewPartial.cshtml", Model.Item1);
+</body>
+</html>

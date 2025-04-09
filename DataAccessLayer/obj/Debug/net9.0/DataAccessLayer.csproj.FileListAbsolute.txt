@@ -1,0 +1,29 @@
+D:\Work\Testing tasks\Inforce\DataAccessLayer\bin\Debug\net9.0\DataAccessLayer.deps.json
+D:\Work\Testing tasks\Inforce\DataAccessLayer\bin\Debug\net9.0\DataAccessLayer.runtimeconfig.json
+D:\Work\Testing tasks\Inforce\DataAccessLayer\bin\Debug\net9.0\DataAccessLayer.dll
+D:\Work\Testing tasks\Inforce\DataAccessLayer\bin\Debug\net9.0\DataAccessLayer.pdb
+D:\Work\Testing tasks\Inforce\DataAccessLayer\obj\Debug\net9.0\DataAccessLayer.csproj.AssemblyReference.cache
+D:\Work\Testing tasks\Inforce\DataAccessLayer\obj\Debug\net9.0\DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Work\Testing tasks\Inforce\DataAccessLayer\obj\Debug\net9.0\DataAccessLayer.AssemblyInfoInputs.cache
+D:\Work\Testing tasks\Inforce\DataAccessLayer\obj\Debug\net9.0\DataAccessLayer.AssemblyInfo.cs
+D:\Work\Testing tasks\Inforce\DataAccessLayer\obj\Debug\net9.0\DataAccessLayer.csproj.CoreCompileInputs.cache
+D:\Work\Testing tasks\Inforce\DataAccessLayer\obj\Debug\net9.0\DataAccessLayer.dll
+D:\Work\Testing tasks\Inforce\DataAccessLayer\obj\Debug\net9.0\refint\DataAccessLayer.dll
+D:\Work\Testing tasks\Inforce\DataAccessLayer\obj\Debug\net9.0\DataAccessLayer.pdb
+D:\Work\Testing tasks\Inforce\DataAccessLayer\obj\Debug\net9.0\DataAccessLayer.genruntimeconfig.cache
+D:\Work\Testing tasks\Inforce\DataAccessLayer\obj\Debug\net9.0\ref\DataAccessLayer.dll
+C:\Users\38096\source\repos\RostykStets\InforceAlbumTestTask\DataAccessLayer\bin\Debug\net9.0\DataAccessLayer.deps.json
+C:\Users\38096\source\repos\RostykStets\InforceAlbumTestTask\DataAccessLayer\bin\Debug\net9.0\DataAccessLayer.runtimeconfig.json
+C:\Users\38096\source\repos\RostykStets\InforceAlbumTestTask\DataAccessLayer\bin\Debug\net9.0\DataAccessLayer.dll
+C:\Users\38096\source\repos\RostykStets\InforceAlbumTestTask\DataAccessLayer\bin\Debug\net9.0\DataAccessLayer.pdb
+C:\Users\38096\source\repos\RostykStets\InforceAlbumTestTask\DataAccessLayer\obj\Debug\net9.0\DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\38096\source\repos\RostykStets\InforceAlbumTestTask\DataAccessLayer\obj\Debug\net9.0\DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\38096\source\repos\RostykStets\InforceAlbumTestTask\DataAccessLayer\obj\Debug\net9.0\DataAccessLayer.AssemblyInfoInputs.cache
+C:\Users\38096\source\repos\RostykStets\InforceAlbumTestTask\DataAccessLayer\obj\Debug\net9.0\DataAccessLayer.AssemblyInfo.cs
+C:\Users\38096\source\repos\RostykStets\InforceAlbumTestTask\DataAccessLayer\obj\Debug\net9.0\DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\38096\source\repos\RostykStets\InforceAlbumTestTask\DataAccessLayer\obj\Debug\net9.0\DataAccessLayer.sourcelink.json
+C:\Users\38096\source\repos\RostykStets\InforceAlbumTestTask\DataAccessLayer\obj\Debug\net9.0\DataAccessLayer.dll
+C:\Users\38096\source\repos\RostykStets\InforceAlbumTestTask\DataAccessLayer\obj\Debug\net9.0\refint\DataAccessLayer.dll
+C:\Users\38096\source\repos\RostykStets\InforceAlbumTestTask\DataAccessLayer\obj\Debug\net9.0\DataAccessLayer.pdb
+C:\Users\38096\source\repos\RostykStets\InforceAlbumTestTask\DataAccessLayer\obj\Debug\net9.0\DataAccessLayer.genruntimeconfig.cache
+C:\Users\38096\source\repos\RostykStets\InforceAlbumTestTask\DataAccessLayer\obj\Debug\net9.0\ref\DataAccessLayer.dll
