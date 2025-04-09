@@ -1,4 +1,4 @@
-#Album View ASP.NET MVC Application.
+# Album View ASP.NET MVC Application.
 
 To run this app:
 1. Clone this repository
