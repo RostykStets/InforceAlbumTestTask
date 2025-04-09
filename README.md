@@ -8,4 +8,4 @@ To run this app:
  }
 
 3. Run Update-Database command in Nu-Get Package Console. Choose DataAccessLayer as default project
-4. Run & enjoy he result!
+4. Run & enjoy the result!
