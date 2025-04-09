@@ -7,5 +7,5 @@ To run this app:
    "ConnectionString": "Host=YourHost;Port=YourPort;Database=InforceAlbumTestTaskDb;Username=YourUserName;Password=YourPassword;"
  }
 
-3. Run Update-Database command in Nu-Get Package Console for DataAccessLayer project
+3. Run Update-Database command in Nu-Get Package Console. Choose DataAccessLayer as default project
 4. Run the whole solution & enjoy he result!
